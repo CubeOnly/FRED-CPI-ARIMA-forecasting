@@ -179,7 +179,11 @@ The ARIMA model significantly outperforms the naive persistence benchmark, demon
 - `validation_plot.png` — 12-month holdout validation (ARIMA vs Naive)  
 - `future_forecast.png` — True 12-month forward CPI forecast  
 - `validation_metrics.txt` — Numerical performance summary  
+## Validation Plot
+![Validation Plot](validation_plot.png)
 
+## Future Forecast
+![Future Forecast](future_forecast.png)
 ---
 
 ## Forecast Interpretation
@@ -209,5 +213,5 @@ python cpi_forecast.py
 The script generates validation results and saves forecast plots.
 ## Author 
 Meherab Hossain Shafin
-
+Undergraduate time-series forecasting project demonstrating applied ARIMA modeling with proper out-of-sample validation.
 Time-series forecasting project for academic and portfolio demonstration purposes.
