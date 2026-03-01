@@ -212,6 +212,10 @@ Run the script:
 python cpi_forecast.py
 The script generates validation results and saves forecast plots.
 ## Author 
+
+
 Meherab Hossain Shafin
 Undergraduate time-series forecasting project demonstrating applied ARIMA modeling with proper out-of-sample validation.
+
+
 Time-series forecasting project for academic and portfolio demonstration purposes.
