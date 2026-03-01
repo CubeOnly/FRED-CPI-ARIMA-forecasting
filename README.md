@@ -204,17 +204,25 @@ Forecast reliability decreases as the horizon extends beyond 12 months.
 
 ## How to Run
 
+
 Install dependencies:
+
+
 pip install pandas numpy matplotlib statsmodels scikit-learn
 
 Run the script:
 
-python cpi_forecast.py
+
+ cpi_forecast.py
+
+
 The script generates validation results and saves forecast plots.
 ## Author 
 
 
 Meherab Hossain Shafin
+
+
 Undergraduate time-series forecasting project demonstrating applied ARIMA modeling with proper out-of-sample validation.
 
 
