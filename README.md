@@ -13,6 +13,15 @@ The objective is to:
 The project emphasizes correct validation methodology and avoidance of data leakage.
 
 ---
+## Data Pipeline (Zapier → Google Sheets → Python)
+
+CPI data is ingested through a lightweight automation pipeline:
+
+1. **Zapier** runs on a schedule and calls the FRED CPIAUCSL.
+2. The returned observations are appended into **Google Sheets** with columns: `Date`, `Value`.
+3. The sheet is exported/downloaded as `cpi_data.csv` and used by the Python script for:
+   - out-of-sample validation (12-month holdout)
+   - true 12-month forward forecasting
 
 ## Data
 
