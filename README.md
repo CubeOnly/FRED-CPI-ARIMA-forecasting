@@ -207,6 +207,7 @@ Run the script:
 
 python cpi_forecast.py
 The script generates validation results and saves forecast plots.
-## Author Meherab Hossain Shafin
+## Author 
+Meherab Hossain Shafin
 
 Time-series forecasting project for academic and portfolio demonstration purposes.
